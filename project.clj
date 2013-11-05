@@ -1,8 +1,8 @@
-(defproject mies/lein-template "0.1.2"
-  :description "A minimal ClojureScript project template"
-  :url "http://github.com/swannodette/mies"
+(defproject cljs-async/lein-template "0.1.0"
+  :description "A core.async ClojureScript project template"
+  :url "http://github.com/Nek/cljs-async"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :scm {:name "git"
-        :url "https://github.com/swannodette/mies"}
+        :url "https://github.com/Nek/cljs-async"}
   :eval-in-leiningen true)
