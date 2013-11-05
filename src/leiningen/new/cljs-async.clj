@@ -1,9 +1,9 @@
-(ns leiningen.new.mies
+(ns leiningen.new.cljs-async
   (:require [leiningen.new.templates :refer [renderer name-to-path ->files]]))
 
-(def render (renderer "mies"))
+(def render (renderer "cljs-async"))
 
-(defn mies [name]
+(defn cljs-async [name]
   (let [data {:name name
               :sanitized (name-to-path name)}]
     (->files data
